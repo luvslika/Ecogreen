@@ -1,0 +1,120 @@
+
+@media screen and (min-width:768px) {
+    body{
+        .donate{
+            flex-basis: 75%;
+        }
+        .nav_box{
+            flex-basis: 75%;
+            justify-content: flex-end;
+
+        }
+
+        .tree img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: bottom center;
+
+        }
+        .about{
+            flex-basis: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        footer{
+            height: 200px;
+            flex-direction: row;
+
+        }
+
+
+        
+
+    }
+}
+    
+    @media screen and (min-width:1200px){
+        body{
+            background-color: green;
+        }
+        .menu{
+            display: none;
+        }
+        #nav_show{
+            display: flex;
+            flex-grow: 1;
+        }
+
+        #nav_show ul li{
+            flex-basis: 15%;
+            text-align: center;
+        }
+        #nav_show ul{
+            list-style: none;
+            display: flex;
+            width: 100%;
+        }
+
+        #nav_show ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .project{
+            flex-direction: row;
+            height: 325px;
+        }
+
+        .project-image{
+            height: 100%;
+            flex-basis: 50%;
+        }
+
+        .project-image img{
+            border-radius: 1rem 0 0  1rem;
+        }
+
+        .campaigns{
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+
+        .project{
+            flex-basis: 45%;
+            height: 350px;
+            flex-grow: 1;
+        }
+
+        .section-title{
+            flex-basis: 100%;
+        }
+
+        .tree{
+            flex-basis: 50%;
+
+        }
+
+        .about{
+            flex-basis: 50%;
+        }
+
+        .volunteer{
+            display: flex;
+            flex-basis: 40%;
+
+        }
+        
+      
+
+        }
+        .tree{
+            display: block;
+            float: 40%;
+            height: 500px;
+        }
+
+       
+    
